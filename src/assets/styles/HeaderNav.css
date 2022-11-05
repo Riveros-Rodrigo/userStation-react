@@ -1,0 +1,55 @@
+
+header{
+    width: 90%;
+    margin: auto;
+}
+
+.colorcitoCaca {
+  background-color: brown;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+}
+header .logo{
+    cursor: pointer;
+}
+header .idiomas{
+    display: flex;
+}
+header .idiomas p{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+header .idiomas .idiomaEsp{
+    color: rgba(200, 78, 137, 1);
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+header .idiomas .idiomaEng{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+header .padreDerecha{
+    display: flex;
+    align-items: center;
+}
+header .padreDerecha .meInteresa{
+    margin: 0px 25px;
+    cursor: pointer;
+}
+header .padreDerecha .hamburguesa{
+    cursor: pointer;
+}

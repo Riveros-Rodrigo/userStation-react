@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import HeaderNav from "./components/HeaderNav";
 
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <React.Fragment>
+      <HeaderNav />
+      <div></div>
+    </React.Fragment>
+  );
 }
